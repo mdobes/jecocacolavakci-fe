@@ -1,0 +1,24 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-image: linear-gradient(135deg, #DBE2ED 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    max-height: 100%;  
+}
+
+.crystal-bg{
+    color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(33px);
+    background-blend-mode: overlay;
+    background-color: #ffffff7d;
+}
+
+#footer{
+    opacity: 0.3;
+}
+
+.logo-main {
+    max-height: 2.3rem;
+}
