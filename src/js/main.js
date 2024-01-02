@@ -1,4 +1,3 @@
-// Import our custom CSS
 import { off } from 'process';
 import '../scss/styles.scss'
 
