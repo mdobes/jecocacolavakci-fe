@@ -1,0 +1,17 @@
+<svg opacity="0.3" id="visual" viewBox="0 0 1920 1080" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+<style>
+:root {
+    --bg-color: #ffffff;
+    --svg-main-color: #00CC99;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #050505;
+        --svg-main-color: #00CC99;
+    }
+}
+</style>
+
+<defs><filter id="blur1" x="-10%" y="-10%" width="120%" height="120%"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="327" result="effect1_foregroundBlur"></feGaussianBlur></filter></defs><rect width="1920" height="1080" fill="var(--bg-color)"></rect><g filter="url(#blur1)"><circle cx="712" cy="136" fill="var(--svg-main-color)" r="727"></circle><circle cx="1032" cy="502" fill="var(--bg-color)" r="727"></circle><circle cx="1267" cy="822" fill="var(--svg-main-color)" r="727"></circle><circle cx="232" cy="9" fill="var(--svg-main-color)" r="727"></circle><circle cx="1484" cy="481" fill="var(--bg-color)" r="727"></circle><circle cx="1853" cy="884" fill="var(--svg-main-color)" r="727"></circle></g></svg>
