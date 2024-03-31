@@ -19,5 +19,5 @@ npm run build
 ```
 Then you can upload the dist directory onto your web server.
 
-# Licencce
+# License
 [MIT](LICENCE.md)
